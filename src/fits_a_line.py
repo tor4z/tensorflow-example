@@ -5,7 +5,7 @@ import tensorflow as tf
 import numpy as np
 
 ### Tensor Ranks, Shapes
-#   Rank 	Shape 	            Dimension number 	Example
+#   Rank    Shape               Dimension number    Example
 #   0 	    []                  0-D 	            A 0-D tensor. A scalar.
 #   1 	    [D0]                1-D 	            A 1-D tensor with shape [5].
 #   2 	    [D0, D1]            2-D 	            A 2-D tensor with shape [3, 4].
