@@ -6,11 +6,11 @@ import numpy as np
 
 ### Tensor Ranks, Shapes
 #   Rank 	Shape 	            Dimension number 	Example
-#   0 	[] 	                0-D 	            A 0-D tensor. A scalar.
-#   1 	[D0] 	            1-D 	            A 1-D tensor with shape [5].
-#   2 	[D0, D1] 	        2-D 	            A 2-D tensor with shape [3, 4].
-#   3 	[D0, D1, D2] 	    3-D 	            A 3-D tensor with shape [1, 4, 3].
-#   n 	[D0, D1, ... Dn-1] 	n-D 	            A tensor with shape [D0, D1, ... Dn-1].
+#   0 	    []                  0-D 	            A 0-D tensor. A scalar.
+#   1 	    [D0]                1-D 	            A 1-D tensor with shape [5].
+#   2 	    [D0, D1]            2-D 	            A 2-D tensor with shape [3, 4].
+#   3 	    [D0, D1, D2]        3-D 	            A 3-D tensor with shape [1, 4, 3].
+#   n 	    [D0, D1, ... Dn-1]  n-D 	            A tensor with shape [D0, D1, ... Dn-1].
 
 x_data = np.random.rand(100).astype(np.float32)
 y_data = x_data * 0.1 + 0.3
