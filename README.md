@@ -1,3 +1,3 @@
 # tensorflow-example
 
-Learn TensorFlow by example.
+Learning TensorFlow by example.
